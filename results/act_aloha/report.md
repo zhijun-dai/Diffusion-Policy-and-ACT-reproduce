@@ -39,13 +39,9 @@
 
 | Checkpoint | 成功率 |
 |------------|--------|
-| 20K | pending |
-| 40K | pending |
-| 60K | pending |
-| 80K | pending |
-| 100K | pending |
+| 100K | **80.0%** | 5 episodes, 630s eval time |
 
-*ALOHA 评估极慢（400 steps/episode, ~15s/step），评估进行中。*
+*ALOHA 评估极慢（400 steps/episode, ~126s/ep），只评估了 100K checkpoint。*
 
 ## 与 Diffusion Policy 对比
 

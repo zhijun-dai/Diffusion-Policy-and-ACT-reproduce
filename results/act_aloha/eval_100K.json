@@ -1,0 +1,71 @@
+{
+  "per_task": [
+    {
+      "task_group": "aloha",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          271.0,
+          180.0,
+          190.0,
+          65.0,
+          265.0
+        ],
+        "max_rewards": [
+          4.0,
+          4.0,
+          4.0,
+          2.0,
+          4.0
+        ],
+        "successes": [
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "video_paths": [
+          "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_0.mp4",
+          "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_1.mp4",
+          "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_2.mp4",
+          "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_3.mp4",
+          "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_4.mp4"
+        ],
+        "predicted_video_paths": []
+      }
+    }
+  ],
+  "per_group": {
+    "aloha": {
+      "avg_sum_reward": 194.2,
+      "avg_max_reward": 3.6,
+      "pc_success": 80.0,
+      "n_episodes": 5,
+      "video_paths": [
+        "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_0.mp4",
+        "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_1.mp4",
+        "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_2.mp4",
+        "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_3.mp4",
+        "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_4.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 194.2,
+    "avg_max_reward": 3.6,
+    "pc_success": 80.0,
+    "n_episodes": 5,
+    "eval_s": 630.2327983379364,
+    "eval_ep_s": 126.04655985832214,
+    "video_paths": [
+      "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_0.mp4",
+      "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_1.mp4",
+      "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_2.mp4",
+      "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_3.mp4",
+      "/outputs/act_aloha/eval/100K/videos/aloha_0/eval_episode_4.mp4"
+    ],
+    "predicted_video_paths": []
+  }
+}
